@@ -1,0 +1,17 @@
+#content-wrapper {
+  width: 100%;
+  padding: 15px;
+  margin-top: 50px;
+}
+
+#content-wrapper img {
+  width: 100%;
+  margin: 2% 0;
+}
+
+#content-wrapper .orient {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=5); /*for IE*/
+    margin: 18% 0;
+}

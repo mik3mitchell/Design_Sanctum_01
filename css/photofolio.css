@@ -1,0 +1,26 @@
+.gallery {
+  width: 100%;
+  height: auto;
+  margin-bottom: 30px;
+  background: #FFFFFF;
+}
+
+.img {
+  width: 30%;
+  float: left;
+  margin: 1.66% ;
+}
+
+.container-fluid {
+  margin-right: 0;
+}
+
+.modal {
+  text-align: center;
+}
+
+.btn {
+  background-color: rgb(78, 192, 236);
+  color: white;
+  width: auto;
+}

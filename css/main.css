@@ -1,0 +1,205 @@
+* {
+  margin: 0 auto;
+}
+
+body {
+  height: auto;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 100;
+  font-size: 10px;
+}
+
+
+/*NAVIGATION STYLING*/
+
+
+.navbar {
+  background-color: rgb(50, 50, 50);
+  color: rgb(78, 192, 236);
+  font-size: 1.65rem;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  border: 0;
+  margin: 0;
+}
+
+ /*Position brand name*/
+.navbar-brand {
+  font-size: 2.5rem;
+  float: left;
+  margin-left: 10px;
+}
+
+.navbar-nav {
+  margin-right: 15px;
+}
+
+.navbar-nav>li>a {
+  padding: 15px 4px;
+}
+
+  /*Style links and hover color*/
+.navbar-default .navbar-brand,
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:visited,
+.navbar-default .navbar-brand:link,
+.navbar-default .navbar-brand:active,
+.navbar-default .navbar-nav>li>a,
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:visited,
+.navbar-default .navbar-nav>li>a:link,
+.navbar-default .navbar-nav>li>a:active,
+nav a:hover,
+nav a:visited,
+nav a:link,
+nav a:active {
+    background-color: rgb(50, 50, 50);
+    color: rgb(78, 192, 236);
+}
+
+  /*Position nav logo*/
+.nav-icon {
+  height: 50px;
+  float: left;
+  margin: -10px 10px 0 10px;
+  padding: 0 10px 8px 10px;
+}
+
+
+
+  /*Style dropdown-menu*/
+.navbar-default .navbar-nav .open .dropdown-menu>li>a,.navbar-default .navbar-nav .open .dropdown-menu {
+    background-color: #FFFFFF;
+    color: #4F4335;
+    font-size: 1.7rem;
+  }
+
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:focus,
+.navbar-default .navbar-nav>.open>a:hover {
+  background-color: rgb(50,50,50) !important;
+  color: #F5F2E9 !important;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #F5F2E9;
+}
+
+  /*Responsive nav*/
+@media screen and (max-width:935px) {
+
+  .navbar {
+    font-size: 1.4rem;
+  }
+  .navbar-nav {
+    margin-right: 0;
+  }
+
+  .navbar-nav>li>a {
+    padding: 15px 0;
+  }
+
+  .navbar-brand {
+    font-size: 2rem;
+    float: left;
+    margin-left: 10px;
+  }
+
+  .nav-icon {
+    height: 30px;
+    float: left;
+    margin: -10px 10px 0 10px;
+    padding: 0 10px;
+  }
+}
+
+@media screen and (max-width:767px) {
+
+  .navbar-brand {
+    font-size: 2rem;
+    float: left;
+    margin-left: 0;
+  }
+
+  .nav-icon {
+    height: 40px;
+    float: left;
+    margin: -10px 0 0 10px;
+    padding: 0 0 0 10px;
+  }
+}
+/*END NAVIGATION STYLING*/
+
+
+
+
+/*FOOTER STYLING*/
+footer {
+  background-color: rgb(50, 50, 50);
+  color: #F5F2E9;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+footer h1 {
+  color: rgb(78, 192, 236);
+}
+
+footer a {
+  color: #F5F2E9;
+}
+
+.contact {
+  padding: 15px 0;
+}
+
+.btn {
+  background: #4F4335;
+  width: 100px;
+}
+
+.btn-group .btn {
+  border: none;
+}
+
+.btn-group .btn,
+.btn-group .btn:hover,
+.btn-group .btn:visited,
+.btn-group .btn:link,
+.btn-group .btn:active,
+.btn-group .btn>li>a,
+.btn-group .btn>li>a:hover,
+.btn-group .btn>li>a:visited,
+.btn-group .btn>li>a:link,
+.btn-group .btn>li>a:active,
+.btn-group .btn a:hover,
+.btn-group .btn a:visited,
+.btn-group .btn a:link,
+.btn-group .btn a:active {
+    background-color: rgb(50, 50, 50);
+    color: #F5F2E9;
+}
+
+.fa {
+  color: #FFFFFF;
+}
+
+.social .fa {
+  color: rgb(78, 192, 236);
+}
+
+.dslogo {
+  height: 27px;
+  margin-top: 15px;
+}
+
+.social {
+  margin-top: 15px;
+}
+
+footer .row {
+  margin-right: 0;
+}
+/*END FOOTER STYLING*/

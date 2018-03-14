@@ -1,0 +1,111 @@
+@media screen and (max-width:1600px) {
+  .titles {
+    font-size: 5.5rem;
+    margin: 5.5% 0 35px 0;
+  }
+
+  .contactbtn {
+    font-size: 2rem;
+    margin-top: 15px;
+  }
+
+  .sectionTwo .titles {
+      margin: 14% 0 35px 0;
+  }
+
+  #teamSection .titles {
+    margin: 7% 0 35px 0;
+  }
+
+  .team-img {
+    height: 225px;
+  }
+
+}
+
+@media screen and (max-width:991px) {
+  .sub-section1 {
+    height: auto;
+  }
+
+  #servicesSection .contactbtn {
+    margin-bottom: 35px;
+  }
+
+  .titles {
+    font-size: 4rem;
+  }
+
+  .services-img {
+    width: 70vw;
+    margin-bottom: 30px;
+  }
+
+  #servicesSection p {
+    font-size: 2.0rem;
+  }
+
+  .about {
+    font-size: 2.0rem;
+  }
+
+  .team-img {
+    max-height: 300px auto;
+    width: auto;
+  }
+}
+
+@media screen and (max-width:650px) {
+  #servicesSection p {
+    font-size: 1.8rem;
+  }
+
+  .about {
+    font-size: 1.8rem;
+  }
+
+  .team-img {
+    max-height: 200px;
+    width: auto;
+  }
+
+  #teamSection p {
+    font-size: 1.8rem;
+  }
+
+  .sectionTwo {
+    background-image:
+    linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ),url(../img/aboutmobile.png);
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover contain;
+    -webkit-background-size: cover contain;
+    -moz-background-size: cover contain;
+    -o-background-size: cover contain;
+  }
+
+  .sectionThree {
+    background-image:
+    linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ),url(../img/aboutmobile.png);
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover contain;
+    -webkit-background-size: cover contain;
+    -moz-background-size: cover contain;
+    -o-background-size: cover contain;
+  }
+
+  .titles {
+    margin: 14% 0 35px 0;
+  }
+
+  #teamSection .titles {
+    margin: 13% 0 35px 0;
+  }
+}
